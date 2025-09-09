@@ -1,4 +1,4 @@
-interface Pagamento {
+public interface Pagamento {
     float getSaldo();
 }
 
