@@ -1,8 +1,12 @@
-class Folha {
-    protected float saldo;
+public class Folha {
 
-    public float calcular(Pagamento p) {
-        this.saldo = p.getSaldo();
-        return this.saldo;
+    private float saldo;
+
+    public void calcular(Pagamento f) {
+        this.saldo = f.getSaldo();
+    }
+
+    public float getSaldo() {
+        return saldo;
     }
 }
